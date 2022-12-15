@@ -5,6 +5,7 @@ from django.shortcuts import get_object_or_404
 from rest_framework.pagination import PageNumberPagination
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
+import ipdb
 
 
 class AlbumView(APIView, PageNumberPagination):
